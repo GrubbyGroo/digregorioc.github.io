@@ -39,3 +39,7 @@
     margin: none;
     padding: none;
   }
+
+  #lead-content a {
+    margin: 5px;
+  }
