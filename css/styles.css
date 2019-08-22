@@ -23,7 +23,7 @@
     z-index: 1;
 }
 
-#lead-content h2 {
+#lead-content h2, h4 {
     color: white;
   }
 
