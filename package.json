@@ -17,6 +17,9 @@
   "author": "Ryan Fitzgerald",
   "license": "MIT",
   "devDependencies": {
+    "eslint": "^6.3.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
     "gulp": "^4.0.0",
     "gulp-autoprefixer": "^6.0.0",
     "gulp-plumber": "^1.2.0",
@@ -24,5 +27,16 @@
     "gulp-sass": "^4.0.2",
     "gulp-uglify": "^3.0.1",
     "gulp-wait": "0.0.2"
+  },
+  "eslintConfig": {
+    "extends": "standard",
+    "root": true,
+    "env": {
+      "browser": true,
+      "node": true
+    },
+    "rules": {
+      "no-var": "error"
+    }
   }
 }
